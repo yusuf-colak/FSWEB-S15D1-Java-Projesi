@@ -27,7 +27,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * 2 tane field tutması lazım. Bir tanesi ```myNumber``` isminde ve String tipinde, diğer, ```myContacts``` isminde ve Contact ArrayList'i olmalı.
 * Constructor metodu myNumber değerini doldurmalı.
 * 7 tane metodumuz olmalı
-* ```addNewContact``` Contact türünde bir parametre alır. Boolean türünde bir değer döndürür. Contact listede yoksa ```true``` varsa ```false``` değeri döner.  
+* ```addNewContact``` Contact türünde bir parametre alır. Boolean türünde bir değer döndürür. Contact listede yoksa Contact objesini listeye ekleyip ```true``` varsa ```false``` değeri döner.  
 * ```updateContact``` Contact türünde iki parametre alır. Contact lardan biri eskisi biri yenisinin değerini tutar. Boolean bir değer döner. Eğer Contact listede varsa ve doğru bir şekilde update edilirse ```true``` değer döner. Aksi durumda  ```false``` değeri döner.
 * ```removeContact``` Contact türünde bir parametre alır. Eğer Contact listede varsa ve başarılı bir şekilde silinirse ```true``` aksi durumda ```false``` değeri döner.,
 * ```findContact``` Contact türünde bir parametre alır ve ```int``` değer döndürür. Dönüş değeri Contact objesinin listedeki indeksi olmalıdır. Eğer eleman listede yoksa ```-1``` değeri döner.
