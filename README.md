@@ -44,4 +44,4 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * Constructor metodu ```name``` ve ```phoneNumber``` parametrelerini almalı ve değer atamalarını yapmalı.
 * ```getName``` name için getter metodu, ```getPhoneNumber``` phoneNumber için getter metodu tanımlanmalı. 
 * ```createContact``` iki parametre alan bir metod olmalı.(Name ve phoneNumber ikiside String olmalı) aldığı iki değeri kullanarak bir Contact ```instance``` oluşturmalı ve bunu dönmeli.
-* ```createContact``` metodu ```statik``` olmalı.
+* ```createContact``` metodu ```static``` olmalı.
