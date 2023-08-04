@@ -31,7 +31,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * ```updateContact``` Contact türünde iki parametre alır. Contact lardan biri eskisi biri yenisinin değerini tutar. Boolean bir değer döner. Eğer Contact listede varsa ve doğru bir şekilde update edilirse ```true``` değer döner. Aksi durumda  ```false``` değeri döner.
 * ```removeContact``` Contact türünde bir parametre alır. Eğer Contact listede varsa ve başarılı bir şekilde silinirse ```true``` aksi durumda ```false``` değeri döner.,
 * ```findContact``` Contact türünde bir parametre alır ve ```int``` değer döndürür. Dönüş değeri Contact objesinin listedeki indeksi olmalıdır. Eğer eleman listede yoksa ```-1``` değeri döner.
-* ```findContact``` yukardaki findContact metodu ile aynı şekilde çalışır. Sadece parametresinin tipi ```String``` olmalıdır. Contact'ın ismini dönmelidir.
+* ```findContact``` yukardaki findContact metodu ile aynı şekilde çalışır. Sadece parametresinin tipi ```String``` olmalıdır.
 * ```queryContact``` String tipinde bir değer alır ve Contact türünde bir değer döndürür. String parametre Contact ismini içerir. Eğer ilgili isimdeki Contact listede varsa ilgili Contact objesini döndürür. Yoksa null döndürür
 * ```printContact``` parametre almaz return değeri de yoktur. Contactların tamamını  aşağıdaki formattaki gibi listeler.
   Contact List:
